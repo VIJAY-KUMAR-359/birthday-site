@@ -87,14 +87,36 @@ export default function BirthdayCelebration() {
               transition={{ duration: 0.5 }}
             >
               <div className="text-center">
-                <table>
-                  <tr>
-                    <td><p className="text-purple-700 mb-2">Just wanted to remind you—you're my favorite person Mama. My days are better, smiles are wider, and life is sweeter because of you.</p> </td>
-                     <td rowSpan={2}><center><img src="/mama.jpg"  style={{ alignContent: "center" }} alt="Mama" className="w-120 h-55 rounded-full object-cover mb-4 border-4 border-pink-300" /></center></td>
- </tr>
- <tr><td><p className="text-pink-600 font-medium">I hope your birthday is full of love, magic, and everything that makes you smile 💖</p></td></tr>
-                
-               </table>
+              <table>
+  <tbody>
+    <tr>
+      <td>
+        <p className="text-purple-700 mb-2">
+          Just wanted to remind you—you're my favorite person Mama. 
+          My days are better, smiles are wider, and life is sweeter because of you.
+        </p>
+      </td>
+
+      <td rowSpan={2}>
+        <center>
+          <img
+            src="/mama.jpg"
+            alt="Mama"
+            className="w-120 h-55 rounded-full object-cover mb-4 border-4 border-pink-300"
+          />
+        </center>
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        <p className="text-pink-600 font-medium">
+          I hope your birthday is full of love, magic, and everything that makes you smile 💖
+        </p>
+      </td>
+    </tr>
+  </tbody>
+</table>
                 <div className="flex justify-center">
                   <motion.div
                     animate={{
